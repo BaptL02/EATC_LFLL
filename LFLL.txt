@@ -1,12 +1,12 @@
-# LFPG Approach (Config WL)
+# Lyon Approach
 
 [airspace]
 zoom = 1.0
 elevation = 392
 floor = 2000
 descendaltitude = 15000
-ceiling = 17500
-above = 19000
+ceiling = 12500
+above = 14000
 transitionaltitude = 5500
 speedrestriction = 50, 300, 10500, 250
 usa = false
