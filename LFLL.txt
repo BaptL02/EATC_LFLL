@@ -1,0 +1,199 @@
+# LFPG Approach (Config WL)
+
+[airspace]
+zoom = 1.0
+elevation = 392
+floor = 2000
+descendaltitude = 15000
+ceiling = 17500
+above = 19000
+transitionaltitude = 5500
+speedrestriction = 50, 300, 10500, 250
+usa = false
+metric = false
+separation = 3
+name = lyon approach, lyon departure
+center = N45.745528, E5.090583
+magneticvar = -1
+
+boundary =
+	N46.433333,  E4.816667
+	N46.363333,  E5.407778
+	N46.237222,  E5.576389
+	N46.060278,  E5.786667
+	N45.975278,  E5.600278
+	N45.916667,  E5.485556
+	N45.856111,  E5.450556
+	N45.448611,  E5.566667
+	N45.288611,  E5.594444
+	N45.066667,  E5.389722
+	N45.066667,  E4.638889
+	N45.266667,  E4.533333
+	N45.283333,  E4.616667
+	N45.923889,  E4.290278
+	N46.086111,  E4.203611
+	N46.203611,  E4.661389
+	N46.433333,  E4.816667
+
+beacons =
+	LSE, N45.745528, E5.090583, 0, lima sierra echo
+	TALAR, N45.956389, E4.604361, 121, talar
+	INGUV, N45.529667, E5.11675, 0, inguv
+
+handoff =
+	360, Marseille Control, marseille, 135.400
+
+[airport1]
+name = Lyon Saint-Exupery
+code = LFLL
+runways =
+	rwy35L, 35L, N45.710747, E5.090300110, 354, 13123, 0, 0, 821, 0, 0, 0, 0, 0, 0, 0, 0, 120.45
+	rwy35R, 35R, N45.711006, E5.094781111, 354, 8759, 0, 0, 821, 0, 0, 0, 0, 0, 0, 0, 0, 120.45
+
+climbaltitude = 7000
+
+sids =
+	BUBLI, N48.773167, E4.148167
+	BAXIR, N48.792667, E3.869000
+	LANVI, N48.312000, E5.796333
+	RANUX, N49.139667, E4.360667
+	DIKOL, N49.138500, E4.047500
+	NURMO, N49.826333, E2.753500
+	ATREX, N49.786833, E2.366833
+	OPALE, N49.900167, E1.883500
+	EVX, N49.029500, E1.219167
+	LGL, N48.792833, E0.529333
+	AGOPA, N48.086000, E2.008167
+	ERIXU, N48.084333, E2.258833
+	LATRA, N48.084333, E2.515833
+	OKASI, N48.085333, E2.777667
+	PILUL, N48.084500, E3.048167
+
+entrypoints =
+	307, TALAR, 10000
+
+airlines =
+	AAL-123, 2,		B788/B789/B772/B77W, American, n
+	ACA-123, 1,		B77W/B789, Air Canada, n
+	AEE-1AB, 3,			A20N, Aegean, s
+	AFL-1234, 4,			A321, Aeroflot, e
+	AFR-123, 10,	A332/A359/B772/B77W/B789, Airfrans
+	AFR-123, 10,	A332/A359/B772/B77W/B789, Airfrans
+	AFR-123, 10,	B772/B77W, Airfrans
+	AFR-1234, 10,	A319/A320/A321, Airfrans
+	AFR-1234, 10,	A319/A320/A321, Airfrans
+	AFR-12AB, 10,	A318/A319/A320/A321/E170/E190, Airfrans
+	AFR-12AB, 10,	A318/A319/A320/A321/E170/E190/CRJ7/CRJX/E145, Airfrans
+	AFR-12AB, 10,	A318/A319/A320/A321/E170/E190/CRJ7/CRJX/E145, Airfrans
+	AFR-12AB, 10,	A319/A320/A321, Airfrans
+	AIC-123, 1,			B788, Air India, e
+	AMC-123, 3,			A20N, Air Malta, s
+	AMX-123, 1,		B789, Aeromexico, n
+	ANA-123, 1,			B788/B789, All Neepawn, e
+	ASL, 3,			A319, Air Serbia, s
+	AUA-123, 5,	A319/A320/A321/E195, Austrian, s
+	AUI, 3,			B738/E190, Ukraine International, e
+	BAW-123, 6,	A319/A320, Speedbird, nw
+	BEL, 4,			A319/A320, Beeline, e
+	BLA, 3,			B733/B735/B738, Blue Air, e
+	BRU, 3,			E195, Belavia, e
+	BTI, 4,			BCS3, Air Baltic, e
+	CES-123, 1,			B77W, China Eastern, e
+	CSA, 3,			A319/A320, CSA, e
+	CSN-123, 1,			A359, China Southern, e
+	CTN, 3,			A319/DH8D, Croatia, s
+	DAL-12, 2,		A332/A333/A339/A359/B752/B763/B764, Delta, n
+	DLH-1AB, 6,		A319/A320/A321/A20N/A21N, Lufthansa, e
+	EIN-12AB, 4,	A320, Shamrock, n
+	EJU-12AB, 10,	A319/A320, Alpine
+	EJU-12AB, 10,	A319/A320, Alpine
+	EJU-12AB, 10,	A319/A320, Alpine
+	ELY-123, 3,			B738/B739, El Al, s
+	ETD-123, 1,		B78X, Etihad, s
+	ETH-123, 1,			A359/B789, Ethiopian, s 
+	EVA-123, 1,			B77W, EVA, e
+	EZY-123A, 7,	A319/A320/A20N/A21N, Easy, n
+	FIA, 1,			A320, Fia Airlines, e
+	FIN, 4,			E190/A321, Finair, n
+	ICE, 3,			B752/B753/B763/B38M, Iceair, n
+	ITY-123, 4,		A320, Itarrow, s
+	JAL-123, 1,			B77W, Japanair, e
+	KAL-123, 1,			B77W, Korean Air, e
+	KLM-12A, 5,		B737/B738/B739, KLM, e
+	KQA-123, 1,			B788, Kenya, s
+	LBT, 3,			A320, Nouvelair, s
+	LGL, 3,			DH8D, Luksair, e
+	LOT-1AB, 4,			B738/B38M, LOT, e
+	LZB, 3,			E190, Flying Bulgaria, s
+	MAC-123, 3,			A320, Arabia Maroc, w
+	MAU-123, 1,			A359, Air Mauritius, s
+	MEA-123, 3,			A21N, Cedarjet, s
+	MSR-123, 4,			A20N, Egypt Air, s
+	QTR-1AB, 1,			B788/A359/B77W, Qatari, s
+	REU-123, 2,			B77W, Reunion, s
+	ROT-123, 4,			A318/B737/B738, Tarom, e
+	SIA-123, 1,			A359, Singapore, e
+	SVA-123, 1,			B789/B789, Saudia, s
+	SWR-123, 5,		BCS1/BCS3/A319/A320/A321, Swiss, s
+	SZN-123, 3,			A339, Senza, w
+	THA-123, 1,			B77W, Thai, e
+	THT-123, 1,			B789, Tahiti Airlines, n
+	THY-1234, 4,			B739/A321/A21N/A332, Turkish, s
+	UAE-12, 1,		B77W/A388, Emirates, s
+	UAL-123, 2,			B752/B753/B763/B764/B772/B77W/B788/B789/B78X, United, n
+
+[area1]
+
+shape = polygon
+altitude = 0
+labelpos = N45.592, E4.922
+points =
+	 N46.433333,  E4.816667
+	 N46.363333,  E5.407778
+	 N46.237222,  E5.576389
+	 N46.060278,  E5.786667
+	 N45.975278,  E5.600278
+	 N45.916667,  E5.485556
+	 N45.856111,  E5.450556
+	 N45.448611,  E5.566667
+	 N45.288611,  E5.594444
+	 N45.066667,  E5.389722
+	 N45.066667,  E4.638889
+	 N45.266667,  E4.533333
+	 N45.283333,  E4.616667
+	 N45.923889,  E4.290278
+	 N46.086111,  E4.203611
+	 N46.203611,  E4.661389
+	 N46.433333,  E4.816667
+
+[configurations]
+
+config1 =
+	0, rwy35R, landrev
+	0, rwy35L, startrev
+
+config1 =
+	0, rwy35R, land
+	0, rwy35L, start
+
+[departures1]
+runway = rwy09R, rev
+route1 =
+	SA, agopa five alfa
+	N49.016889, E2.444111, 12000
+	N49.012333, E2.361333
+	N49.038306, E2.146639
+	N48.653944, E1.994222
+	N48.653944, E1.994222
+	N48.295, E2.003611
+#PG271, PG272, PG280, RBT, RBT, ADADA, AGOPA
+
+[approach1]
+
+runway = rwy35R
+beacon = TALAR
+route1 =
+	147, TAL, talar one november
+	N45.956389, E4.604361, 10000, 250
+	N45.556444, E4.883417
+	end, 153.0
