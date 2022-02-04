@@ -12,9 +12,10 @@ speedrestriction = 50, 300, 10500, 250
 usa = false
 metric = false
 separation = 3
+automatic = true
 name = lyon approach, lyon departure
 center = N45.745528, E5.090583
-magneticvar = -1
+magneticvar = 1
 
 boundary =
 	N46.5, E4.4
