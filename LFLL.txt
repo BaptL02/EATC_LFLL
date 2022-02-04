@@ -670,3 +670,12 @@ route1 =
 	147, ARB, arbon one november
 	N45.283278, E4.890167, 7000, 250
 	end, 060.0
+
+[approach9]
+
+runway = rwy35R
+beacon = INGUV
+route1 =
+	147, ILS, inguv
+	N45.529667, E5.11675
+	8.9
