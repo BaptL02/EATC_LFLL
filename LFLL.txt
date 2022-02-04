@@ -159,6 +159,34 @@ airlines =
 	UAE-12, 1,		B77W/A388, Emirates, s
 	UAL-123, 2,			B752/B753/B763/B764/B772/B77W/B788/B789/B78X, United, n
 
+[airport2]
+name = Lyon Bron
+code = LY
+runways =
+	rwy34, 34, N45.7193278, E4.947613, 342, 5971, 0, 0, 659, 0, 0, 0, 0, 0, 0, 0, 0, 118.1
+
+traffic = 0.2
+
+climbaltitude = 7000
+
+sids =
+	VESAN, N50.373833, E2.024667
+	ABB, N50.137167, E1.854667
+
+entrypoints =
+	316, TALAR, 15000
+	038, RIPTU, 10000
+	212, ARBON, 15000
+	150, GOMET, 15000
+
+airlines =
+	RYR, 10, B738, Ryanair
+	RYR, 10, B738, Ryanair
+	WZZ, 4, A320, Wizzair, ne
+	WZZ, 1, A21N, Wizzair, ne
+	SQP, 2, B738, Skyup, n
+	MLD, 1, A319, Air Moldova, e
+
 # TMA 4
 [area1]
 
@@ -378,10 +406,12 @@ points =
 config1 =
 	0, rwy35R, landrev
 	0, rwy35L, startrev
+	0, rwy34, startlandrev
 
 config1 =
 	0, rwy35R, land
 	0, rwy35L, start
+	0, rwy34, startland
 
 [departures1]
 runway = rwy09R, rev
