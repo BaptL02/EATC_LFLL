@@ -91,46 +91,47 @@ entrypoints =
 	150, GOMET, 15000
 
 airlines =
-	AFR-1234, 10,	A319/A320/A321, Airfrans
-	AFR-1234, 10,	A319/A320/A321, Airfrans
-	AFR-12AB, 10,	A318/A319/A320/A321/E170/E190, Airfrans
-	HOP-12AB, 10, 	E170/E190, Airhop
-	TAY-1234, 5, 	B738, Beauty
-	TAP-123, 5,		A319/A320/A321, Air Portugal, 	s
-	IBE-12AB, 5,	A319/A320/A321, Iberia, 		s
-	DLH-12AB, 5,	A319/A320/A321, Lufthansa, 		e
-	KLM-12AB, 5,	A319/A320/A321, KLM,			n
-	VLG-12AB, 5,	A319/A320/A321, Vueling,		s
-	BEL-12AB, 5,	A319/A320/A321, Beeline,		n
-	AUA-12AB, 5,	A319/A320/A321, Austrian,		e
-	DAH-12AB, 5,	B738, Air Algerie,	s
-	TSC-12AB, 5,	A310, Air Transat,	n
-	ACA-12AB, 5,	B77W, Air Canada,		n
-	FPO-12AB, 5,	B738, French Post
-	IBS-12AB, 5,	A319/A320/A321, Iberexpres, 	s
-	TUI-12AB, 5,	B738, Tuifly
-	TVF-12AB, 5,	B738, France Soleil
+	AFR-1234, 4,	A319/A320/A321, Airfrans
+	AFR-12AB, 4,	A318/A319/A320/A321/E170/E190, Airfrans
+	HOP-12AB, 2, 	E170/E190, Airhop
+	TAY-1234, 1, 	B738, Beauty
+	TAP-123, 2,	A319/A320/A321, Air Portugal, 	s
+	IBE-12AB, 2,	A319/A320/A321, Iberia, 		s
+	DLH-12AB, 3,	A319/A320/A321, Lufthansa, 		e
+	KLM-12AB, 3,	A319/A320/A321, KLM,			n
+	VLG-12AB, 1,	A319/A320/A321, Vueling,		s
+	BEL-12AB, 1,	A319/A320/A321, Beeline,		n
+	AUA-12AB, 1,	A319/A320/A321, Austrian,		e
+	DAH-12AB, 2,	B738, Air Algerie,	s
+	TSC-12AB, 1,	A310, Air Transat,	n
+	ACA-12AB, 2,	A333, Air Canada,		n
+	FPO-12AB, 2,	B738, French Post
+	IBS-12AB, 1,	A319/A320/A321, Iberexpres, 	s
+	TUI-12AB, 1,	B738, Tuifly
+	TVF-12AB, 3,	B738, France Soleil
+	EJU-12AB, 10,	A319/A320/A321, Alpine
 	EJU-12AB, 5,	A319/A320/A321, Alpine
-	MAC-12AB, 5,	A319/A320/A321, Arabia Maroc, 	s
-	RAM-12AB, 5,	B738, Royalair Maroc,	s
-	THY-12AB, 5,	A319/A320/A321/B738, Turkish, 		s
-	AEE-12AB, 5,	A319/A320/A321, Aegan,			s
-	EIN-12AB, 5,	A319/A320/A321, Shamrock,		n
-	TAR-12AB, 5,	A319/A320/A321, Tunair,			s
-	CTN-12AB, 5,	A319/A320/A321, Croatia,		s
-	PGT-12AB, 5,	A319/A320/A321, Sunturk,		s
-	AFL-12AB, 5,	A319/A320/A321, Aeroflot		n
-	LBT-12AB, 5,	A319/A320/A321, Nouvelair,		s
-	UAE-12AB, 5,	B77W, Emirates		s
-	SEH-12AB, 5,	A319/A320/A321, Air Crete,		s
-	WZZ-12AB, 5,	A319/A320/A321, WizzAir
-	SZN-12AB, 5,	A339, Sensa,			s
-	SXS-12AB, 5,	B738, Sunexpress,		s
-	BAW-12AB, 5,	A319/A320/A321, Speedbird,		n
-	AMC-12AB, 5,	A319/A320/A321, Air Malta,		s
-	CRL-12AB, 5,	A332, Corsair
-	SQP-12AB, 5,	B738, SkyUp,			s
-	QTR-12AB, 5,	B789, Qatari,			s
+	MAC-12AB, 2,	A319/A320/A321, Arabia Maroc, 	s
+	RAM-12AB, 2,	B738, Royalair Maroc,	s
+	THY-12AB, 2,	A319/A320/A321/B738, Turkish, 		s
+	AEE-12AB, 1,	A319/A320/A321, Aegan,			s
+	EIN-12AB, 1,	A319/A320/A321, Shamrock,		n
+	TAR-12AB, 2,	A319/A320/A321, Tunair,			s
+	CTN-12AB, 1,	A319/A320/A321, Croatia,		s
+	PGT-12AB, 2,	A319/A320/A321, Sunturk,		s
+	AFL-12AB, 1,	A319/A320/A321, Aeroflot		n
+	LBT-12AB, 3,	A319/A320/A321, Nouvelair,		s
+	UAE-12AB, 1,	B77W, Emirates		s
+	SEH-12AB, 1,	A319/A320/A321, Air Crete,		s
+	WZZ-12AB, 1,	A319/A320/A321, WizzAir
+	SZN-12AB, 1,	A339, Sensa,			s
+	SXS-12AB, 1,	B738, Sunexpress,		s
+	BAW-12AB, 3,	A319/A320/A321, Speedbird,		n
+	AMC-12AB, 1,	A319/A320/A321, Air Malta,		s
+	CRL-12AB, 2,	A332, Corsair
+	SQP-12AB, 1,	B738, SkyUp,			s
+	QTR-12AB, 1,	B789, Qatari,			s
+	EXS-12AB, 1,	B738, Channex,			s
 
 [airport2]
 name = Lyon Bron
