@@ -493,16 +493,109 @@ config1 =
 	0, rwy34, startland
 
 [departures1]
-runway = rwy09R, rev
+runway = rwy35L
 route1 =
-	SA, agopa five alfa
-	N49.016889, E2.444111, 12000
-	N49.012333, E2.361333
-	N49.038306, E2.146639
-	N48.653944, E1.994222
-	N48.653944, E1.994222
-	N48.295, E2.003611
-#PG271, PG272, PG280, RBT, RBT, ADADA, AGOPA
+	ROMAM, romam two november
+	N45.814805, E5.076614
+	N45.362361, E5.152972
+	N45.102647, E5.163447
+
+[departures2]
+runway = rwy35L
+route1 =
+	RISOR, risor two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.655833, E5.293056
+	N45.506944, E5.626944
+	N45.538333, E5.964167
+
+[departures3]
+runway = rwy35L
+route1 =
+	BELUS, belus two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.655833, E5.293056
+	N45.675278, E5.593889
+
+[departures4]
+runway = rwy35L
+route1 =
+	MABES, mabes two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.921667, E5.058611
+	N46.324056, E4.985194
+	N46.340222, E5.265056
+
+[departures5]
+runway = rwy35L
+route1 =
+	MOKIP, mokip two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.921667, E5.058611
+	N46.324056, E4.985194
+	N46.448889, E5.093611
+
+[departures6]
+runway = rwy35L
+route1 =
+	ALURA, alura two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.921667, E5.058611
+	N46.324056, E4.985194
+	N46.448889, E5.093611
+
+[departures7]
+runway = rwy35L
+route1 =
+	BUSIL, busil two november
+	N45.801846, E5.082092
+	N45.814805, E5.076614
+	N45.921667, E5.058611
+	N46.293611, E4.721944
+
+[departures8]
+runway = rwy35L
+route1 =
+	BELEP, belep two november
+	N45.927861, E5.063806
+	N45.828194, E4.826444
+	N45.780972, E4.713056
+	N45.730056, E4.514
+	N45.791667, E4.131667
+
+[departures9]
+runway = rwy35L
+route1 =
+	REPSI, repsi two november
+	N45.927861, E5.063806
+	N45.828194, E4.826444
+	N45.780972, E4.713056
+	N45.708028, E4.648861
+	N45.522389, E4.275278
+
+[departures10]
+runway = rwy35L
+route1 =
+	MURRO, murro two november
+	N45.927861, E5.063806
+	N45.828194, E4.826444
+	N45.780972, E4.713056
+	N45.708028, E4.648861
+	N45.332917, E4.375556
+
+[departures11]
+runway = rwy35L
+route1 =
+	EB, echo bravo two november
+	N45.927861, E5.063806
+	N45.828194, E4.826444
+	N45.780972, E4.713056
+	N45.637944, E4.283528
 
 [approach1]
 
