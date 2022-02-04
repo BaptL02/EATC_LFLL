@@ -91,74 +91,46 @@ entrypoints =
 	150, GOMET, 15000
 
 airlines =
-	AAL-123, 2,		B788/B789/B772/B77W, American, n
-	ACA-123, 1,		B77W/B789, Air Canada, n
-	AEE-1AB, 3,			A20N, Aegean, s
-	AFL-1234, 4,			A321, Aeroflot, e
-	AFR-123, 10,	A332/A359/B772/B77W/B789, Airfrans
-	AFR-123, 10,	A332/A359/B772/B77W/B789, Airfrans
-	AFR-123, 10,	B772/B77W, Airfrans
 	AFR-1234, 10,	A319/A320/A321, Airfrans
 	AFR-1234, 10,	A319/A320/A321, Airfrans
 	AFR-12AB, 10,	A318/A319/A320/A321/E170/E190, Airfrans
-	AFR-12AB, 10,	A318/A319/A320/A321/E170/E190/CRJ7/CRJX/E145, Airfrans
-	AFR-12AB, 10,	A318/A319/A320/A321/E170/E190/CRJ7/CRJX/E145, Airfrans
-	AFR-12AB, 10,	A319/A320/A321, Airfrans
-	AIC-123, 1,			B788, Air India, e
-	AMC-123, 3,			A20N, Air Malta, s
-	AMX-123, 1,		B789, Aeromexico, n
-	ANA-123, 1,			B788/B789, All Neepawn, e
-	ASL, 3,			A319, Air Serbia, s
-	AUA-123, 5,	A319/A320/A321/E195, Austrian, s
-	AUI, 3,			B738/E190, Ukraine International, e
-	BAW-123, 6,	A319/A320, Speedbird, nw
-	BEL, 4,			A319/A320, Beeline, e
-	BLA, 3,			B733/B735/B738, Blue Air, e
-	BRU, 3,			E195, Belavia, e
-	BTI, 4,			BCS3, Air Baltic, e
-	CES-123, 1,			B77W, China Eastern, e
-	CSA, 3,			A319/A320, CSA, e
-	CSN-123, 1,			A359, China Southern, e
-	CTN, 3,			A319/DH8D, Croatia, s
-	DAL-12, 2,		A332/A333/A339/A359/B752/B763/B764, Delta, n
-	DLH-1AB, 6,		A319/A320/A321/A20N/A21N, Lufthansa, e
-	EIN-12AB, 4,	A320, Shamrock, n
-	EJU-12AB, 10,	A319/A320, Alpine
-	EJU-12AB, 10,	A319/A320, Alpine
-	EJU-12AB, 10,	A319/A320, Alpine
-	ELY-123, 3,			B738/B739, El Al, s
-	ETD-123, 1,		B78X, Etihad, s
-	ETH-123, 1,			A359/B789, Ethiopian, s 
-	EVA-123, 1,			B77W, EVA, e
-	EZY-123A, 7,	A319/A320/A20N/A21N, Easy, n
-	FIA, 1,			A320, Fia Airlines, e
-	FIN, 4,			E190/A321, Finair, n
-	ICE, 3,			B752/B753/B763/B38M, Iceair, n
-	ITY-123, 4,		A320, Itarrow, s
-	JAL-123, 1,			B77W, Japanair, e
-	KAL-123, 1,			B77W, Korean Air, e
-	KLM-12A, 5,		B737/B738/B739, KLM, e
-	KQA-123, 1,			B788, Kenya, s
-	LBT, 3,			A320, Nouvelair, s
-	LGL, 3,			DH8D, Luksair, e
-	LOT-1AB, 4,			B738/B38M, LOT, e
-	LZB, 3,			E190, Flying Bulgaria, s
-	MAC-123, 3,			A320, Arabia Maroc, w
-	MAU-123, 1,			A359, Air Mauritius, s
-	MEA-123, 3,			A21N, Cedarjet, s
-	MSR-123, 4,			A20N, Egypt Air, s
-	QTR-1AB, 1,			B788/A359/B77W, Qatari, s
-	REU-123, 2,			B77W, Reunion, s
-	ROT-123, 4,			A318/B737/B738, Tarom, e
-	SIA-123, 1,			A359, Singapore, e
-	SVA-123, 1,			B789/B789, Saudia, s
-	SWR-123, 5,		BCS1/BCS3/A319/A320/A321, Swiss, s
-	SZN-123, 3,			A339, Senza, w
-	THA-123, 1,			B77W, Thai, e
-	THT-123, 1,			B789, Tahiti Airlines, n
-	THY-1234, 4,			B739/A321/A21N/A332, Turkish, s
-	UAE-12, 1,		B77W/A388, Emirates, s
-	UAL-123, 2,			B752/B753/B763/B764/B772/B77W/B788/B789/B78X, United, n
+	HOP-12AB, 10, 	E170/E190, Airhop
+	TAY-1234, 5, 	B738, Beauty
+	TAP-123, 5,		A319/A320/A321, Air Portugal, 	s
+	IBE-12AB, 5,	A319/A320/A321, Iberia, 		s
+	DLH-12AB, 5,	A319/A320/A321, Lufthansa, 		e
+	KLM-12AB, 5,	A319/A320/A321, KLM,			n
+	VLG-12AB, 5,	A319/A320/A321, Vueling,		s
+	BEL-12AB, 5,	A319/A320/A321, Beeline,		n
+	AUA-12AB, 5,	A319/A320/A321, Austrian,		e
+	DAH-12AB, 5,	B738, Air Algerie,	s
+	TSC-12AB, 5,	A310, Air Transat,	n
+	ACA-12AB, 5,	B77W, Air Canada,		n
+	FPO-12AB, 5,	B738, French Post
+	IBS-12AB, 5,	A319/A320/A321, Iberexpres, 	s
+	TUI-12AB, 5,	B738, Tuifly
+	TVF-12AB, 5,	B738, France Soleil
+	EJU-12AB, 5,	A319/A320/A321, Alpine
+	MAC-12AB, 5,	A319/A320/A321, Arabia Maroc, 	s
+	RAM-12AB, 5,	B738, Royalair Maroc,	s
+	THY-12AB, 5,	A319/A320/A321/B738, Turkish, 		s
+	AEE-12AB, 5,	A319/A320/A321, Aegan,			s
+	EIN-12AB, 5,	A319/A320/A321, Shamrock,		n
+	TAR-12AB, 5,	A319/A320/A321, Tunair,			s
+	CTN-12AB, 5,	A319/A320/A321, Croatia,		s
+	PGT-12AB, 5,	A319/A320/A321, Sunturk,		s
+	AFL-12AB, 5,	A319/A320/A321, Aeroflot		n
+	LBT-12AB, 5,	A319/A320/A321, Nouvelair,		s
+	UAE-12AB, 5,	B77W, Emirates		s
+	SEH-12AB, 5,	A319/A320/A321, Air Crete,		s
+	WZZ-12AB, 5,	A319/A320/A321, WizzAir
+	SZN-12AB, 5,	A339, Sensa,			s
+	SXS-12AB, 5,	B738, Sunexpress,		s
+	BAW-12AB, 5,	A319/A320/A321, Speedbird,		n
+	AMC-12AB, 5,	A319/A320/A321, Air Malta,		s
+	CRL-12AB, 5,	A332, Corsair
+	SQP-12AB, 5,	B738, SkyUp,			s
+	QTR-12AB, 5,	B789, Qatari,			s
 
 [airport2]
 name = Lyon Bron
