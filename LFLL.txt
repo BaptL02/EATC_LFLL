@@ -148,10 +148,37 @@ sids =
 	ABB, N50.137167, E1.854667
 
 entrypoints =
-	316, TALAR, 15000
+	316, TALAR, 9000
 	038, RIPTU, 10000
-	212, ARBON, 15000
-	150, GOMET, 15000
+	212, ARBON, 9000
+	150, GOMET, 10000
+
+airlines =
+	RYR, 10, B738, Ryanair
+	RYR, 10, B738, Ryanair
+	WZZ, 4, A320, Wizzair, ne
+	WZZ, 1, A21N, Wizzair, ne
+	SQP, 2, B738, Skyup, n
+	MLD, 1, A319, Air Moldova, e
+
+[airport3]
+name = Grenoble
+code = LS
+runways =
+	rwy27, 27, N45.361160, E5.3471864, 268, 10006, 0, 0, 659, 0, 0, 0, 0, 0, 0, 0, 0, 118.1
+
+traffic = 0.2
+
+climbaltitude = 7000
+
+sids =
+	VESAN, N50.373833, E2.024667
+	ABB, N50.137167, E1.854667
+
+entrypoints =
+	038, RIPTU, 7000
+	212, ARBON, 7000
+	150, GOMET, 10000
 
 airlines =
 	RYR, 10, B738, Ryanair
@@ -459,11 +486,13 @@ config1 =
 	0, rwy35R, landrev
 	0, rwy35L, startrev
 	0, rwy34, startlandrev
+	0, rwy27, startlandrev
 
 config1 =
 	0, rwy35R, land
 	0, rwy35L, start
 	0, rwy34, startland
+	0, rwy27, startland
 
 [departures1]
 runway = rwy35L
@@ -652,3 +681,30 @@ route1 =
 	147, ILS, inguv
 	N45.529667, E5.11675
 	8.9
+
+[approach10]
+
+runway = rwy27
+beacon = ARBON
+route1 =
+	147, ARB, arbon one echo
+	N45.283278, E4.890167, 7000, 250
+	end, 060.0
+
+[approach11]
+
+runway = rwy27
+beacon = GOMET
+route1 =
+	147, GOM, gomet one echo
+	N45.360194, E5.488000, 10000, 250
+	end, 250.0
+
+[approach12]
+
+runway = rwy27
+beacon = RIPTU
+route1 =
+	147, RTP, riptu one echo
+	N46.106944, E5.329167, 7000, 250
+	end, 180.0
