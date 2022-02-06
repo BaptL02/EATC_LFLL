@@ -12,7 +12,7 @@ speedrestriction = 50, 300, 10500, 250
 usa = false
 metric = false
 separation = 3
-automatic = true
+automatic = false
 name = lyon approach, lyon departure
 center = N45.745528, E5.090583
 magneticvar = 1
@@ -63,6 +63,7 @@ beacons =
 	GOMET, N45.360194, E5.488000, 344, gomet
 	RIPTU, N46.106944, E5.329167, 204, riptu
 	INGUV, N45.529667, E5.11675, 0, inguv
+	LS400, N45.325555, E5.595555, 0, lima sierra 
 
 handoff =
 	360, Marseille Control, marseille, 135.400
@@ -170,7 +171,7 @@ airlines =
 name = Grenoble
 code = LS
 runways =
-	rwy27, 27, N45.361160, E5.3471864, 268, 10006, 0, 0, 659, 0, 0, 0, 0, 0, 0, 0, 0, 118.1
+	rwy27, 27, N45.361160, E5.3471864, 268, 10006, 0, 0, 659, 3.3, 0, 0, 0, 0, 0, 0, 0, 118.1
 
 traffic = 0.2
 
@@ -406,27 +407,42 @@ route1 =
 runway = rwy27
 beacon = ARBON
 route1 =
-	147, ARB, arbon one echo
-	N45.283278, E4.890167, 7000, 250
-	end, 060.0
+    147, RNP, RNP 27
+    N45.283278, E4.890167, 7000, 250
+    N45.219444, E5.134000
+    N45.261139, E5.348361
+    N45.298833, E5.544194
+    N45.315250, E5.590639, 4500, 200
+    N45.361917, E5.591139
+    6.8, 3700, 180
 
 [approach11]
 
 runway = rwy27
 beacon = GOMET
 route1 =
-	147, GOM, gomet one echo
-	N45.360194, E5.488000, 10000, 250
-	end, 250.0
+    147, GOM, gomet one echo
+    N45.360194, E5.488000, 10000, 250
+    end, 250.0
 
 [approach12]
 
 runway = rwy27
 beacon = RIPTU
 route1 =
-	147, RTP, riptu one echo
-	N46.106944, E5.329167, 7000, 250
-	end, 180.0
+    147, RTP, riptu one echo
+    N46.106944, E5.329167, 7000, 250
+    end, 180.0
+
+[approach13]
+
+runway = rwy27
+beacon = LS400
+route1 =
+    147, RNP, RNP 27
+    N45.325555, E5.595555, 4500, 200
+    N45.361917, E5.591139
+    6.8, 3700, 180
 
 [area1] # TMA LFLL TMA 1 Lyon
 
