@@ -62,8 +62,6 @@ beacons =
 	ARBON, N45.283278, E4.890167, 016, arbon
 	GOMET, N45.360194, E5.488000, 344, gomet
 	RIPTU, N46.106944, E5.329167, 204, riptu
-	INGUV, N45.529667, E5.11675, 0, inguv
-	LS400, N45.325555, E5.595555, 0, lima sierra 
 
 handoff =
 	360, Marseille Control, marseille, 135.400
@@ -171,7 +169,7 @@ airlines =
 name = Grenoble
 code = LS
 runways =
-	rwy27, 27, N45.361160, E5.3471864, 268, 10006, 0, 0, 659, 3.3, 0, 0, 0, 0, 0, 0, 0, 118.1
+	rwy27, 27, N45.361160, E5.3471864, 268, 10006, 0, 0, 659, 4.2, 0, 0, 0, 0, 0, 0, 0, 118.1
 
 traffic = 0.2
 
@@ -396,7 +394,7 @@ route1 =
 [approach9]
 
 runway = rwy35R
-beacon = INGUV
+beacon = INGUV, N45.529667, E5.11675
 route1 =
 	147, ILS, inguv
 	N45.529667, E5.11675
@@ -1026,4 +1024,3 @@ labelpos = N0.0, E0.0
 points =
 	N45.447222, E5.488611
 	N45.447222, E5.488611
-
