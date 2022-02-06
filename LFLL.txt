@@ -566,6 +566,16 @@ route1 =
     N45.361917, E5.591139, 0, 185
     6.8, 3700, 180
 
+
+[approach15]
+
+runway = rwy34
+beacon = RESKU, N45.541361, E5.023194
+route1 =
+    147, RNP, RNP 34
+    N45.541361, E5.023194
+    7.2, 3000, 180
+
 [area1] # TMA LFLL TMA 1 Lyon
 
 shape = polygon
