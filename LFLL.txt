@@ -18,24 +18,34 @@ center = N45.745528, E5.090583
 magneticvar = 1
 
 boundary =
-	N46.5, E4.4
-	N46.5, E4.674722
-	N46.5, E4.833333
-	N46.5, E5.585833
+	N46.500000, E4.400000
+	N46.500000, E4.674722
+	N46.500000, E4.833333
+	N46.500000, E5.585833
 	N46.477222, E5.606111
 	N46.242222, E5.801111
 	N46.173333, E5.661667
+	N46.165733, E5.647746
+	N46.147246, E5.621108
+	N46.125829, E5.599500
+	N46.102133, E5.583579
+	N46.076879, E5.573828
+	N46.050833, E5.570545
+	N46.024788, E5.573828
+	N45.999533, E5.583579
+	N45.975837, E5.599500
+	N45.954421, E5.621108
+	N45.935933, E5.647746
 	N45.928056, E5.662778
 	N45.716667, E5.489444
 	N45.685556, E5.498056
-	N45.635278, E5.955
-	N45.605556, E5.982778
+	N45.632222, E5.983333
 	N45.455556, E5.979167
 	N45.449167, E5.908611
 	N45.330556, E5.937222
 	N45.106667, E5.773611
-	N45.0, E5.521111
-	N45.0, E5.328333
+	N45.000000, E5.521111
+	N45.000000, E5.328333
 	N44.666667, E5.023333
 	N44.666667, E4.851389
 	N44.668611, E4.454722
@@ -43,9 +53,8 @@ boundary =
 	N45.136944, E4.042222
 	N45.581667, E4.108889
 	N45.969444, E3.898056
-	N46.05, E3.853889
-	N46.175, E4.05
-	N46.5, E4.4
+	N46.050000, E3.853889
+	N46.175000, E4.050000
 
 beacons =
 	LSE, N45.745528, E5.090583, 0, lima sierra echo
@@ -91,47 +100,47 @@ entrypoints =
 	150, GOMET, 15000
 
 airlines =
-	AFR-1234, 4,	A319/A320/A321, Airfrans
-	AFR-12AB, 4,	A318/A319/A320/A321/E170/E190, Airfrans
-	HOP-12AB, 2, 	E170/E190, Airhop
-	TAY-1234, 1, 	B738, Beauty
-	TAP-123, 2,	A319/A320/A321, Air Portugal, 	s
-	IBE-1234, 2,	A319/A320/A321, Iberia, 		s
-	DLH-1AB, 3,	A319/A320/A321, Lufthansa, 		e
-	KLM-123, 3,	A319/A320/A321, KLM,			n
-	VLG-1234, 1,	A319/A320/A321, Vueling,		s
-	BEL-1234, 1,	A319/A320/A321, Beeline,		n
-	AUA-12A, 1,	A319/A320/A321, Austrian,		e
-	DAH-1234, 2,	B738, Air Algerie,	s
-	TSC-123, 1,	A310, Air Transat,	n
-	ACA-12, 2,	A333, Air Canada,		n
-	FPO-123, 2,	B738, French Post
-	IBS-12AB, 1,	A319/A320/A321, Iberexpres, 	s
-	TUI-1AB, 1,	B738, Tuifly
-	TVF-12AB, 3,	B738, France Soleil
-	EJU-12AB, 10,	A319/A320/A321, Alpine
-	EJU-12AB, 5,	A319/A320/A321, Alpine
-	MAC-1234, 2,	A319/A320/A321, Arabia Maroc, 	s
-	RAM-1234, 2,	B738, Royalair Maroc,	s
-	THY-1234, 2,	A319/A320/A321/B738, Turkish, 		s
-	AEE-123, 1,	A319/A320/A321, Aegan,			s
-	EIN-12A, 1,	A319/A320/A321, Shamrock,		n
-	TAR-123, 2,	A319/A320/A321, Tunair,			s
-	CTN-1234, 1,	A319/A320/A321, Croatia,		s
-	PGT-123, 2,	A319/A320/A321, Sunturk,		s
-	AFL-1234, 1,	A319/A320/A321, Aeroflot		n
-	LBT-1234, 3,	A319/A320/A321, Nouvelair,		s
-	UAE-12, 1,	B77W, Emirates		s
-	SEH-123, 1,	A319/A320/A321, Air Crete,		s
-	WZZ-1234, 1,	A319/A320/A321, WizzAir
-	SZN-123, 1,	A339, Sensa,			s
-	SXS-1AB, 1,	B738, Sunexpress,		s
-	BAW-123, 3,	A319/A320/A321, Speedbird,		n
-	AMC-123, 1,	A319/A320/A321, Air Malta,		s
-	CRL-123, 2,	A332, Corsair
-	SQP-1234, 1,	B738, SkyUp,			s
-	QTR-12A, 1,	B789, Qatari,			s
-	EXS-1A, 1,	B738, Channex,			s
+	ACA-123, 2,	A333, air canada,		n
+	AEE-12AB, 1,	A319/A320/A321, aegan,			s
+	AFL-1234, 1,	A319/A320/A321, aeroflot		n
+	AFR-1234, 4,	A319/A320/A321, airfrans
+	AFR-12AB, 4,	A318/A319/A320/A321/E170/E190, airfrans
+	AMC-123, 1,	A319/A320/A321, air malta,		s
+	AUA-1AB, 1,	A319/A320/A321, austrian,		e
+	BAW-123, 3,	A319/A320/A321, speedbird,		n
+	BEL-1234, 1,	A319/A320/A321, beeline,		n
+	CRL-123, 2,	A332, corsair
+	CTN-1234, 1,	A319/A320/A321, croatia,		s
+	DAH-1234, 2,	B738, air algerie,	s
+	DLH-1AB, 3,	A319/A320/A321, lufthansa, 		e
+	EIN-12A, 1,	A319/A320/A321, shamrock,		n
+	EJU-12AB, 10,	A319/A320/A321, alpine
+	EJU-12AB, 5,	A319/A320/A321, alpine
+	EXS-1A, 1,	B738, channex,			s
+	FPO-123, 2,	B738, french post
+	HOP-12AB, 2, 	E170/E190, airhop
+	IBE-1234, 2,	A319/A320/A321, iberia, 		s
+	IBS-12AB, 1,	A319/A320/A321, iberexpres, 	s
+	KLM-123, 3,	A319/A320/A321, klm,			n
+	LBT-1234, 3,	A319/A320/A321, nouvelair,		s
+	MAC-1234, 2,	A319/A320/A321, arabia maroc, 	s
+	PGT-123, 2,	A319/A320/A321, sunturk,		s
+	QTR-12A, 1,	B789, qatari,			s
+	RAM-1234, 2,	B738, royalair maroc,	s
+	SEH-123, 1,	A319/A320/A321, air crete,		s
+	SQP-1234, 1,	B738, skyup,			s
+	SXS-1AB, 1,	B738, sunexpress,		s
+	SZN-123, 1,	A339, sensa,			s
+	TAP-123, 2,	A319/A320/A321, air portugal, 	s
+	TAR-123, 2,	A319/A320/A321, tunair,			s
+	TAY-1234, 1, 	B738, beauty
+	THY-1234, 2,	A319/A320/A321/B738, turkish, 		s
+	TSC-123, 1,	A310, air transat,	n
+	TUI-1AB, 1,	B738, tuifly
+	TVF-12AB, 3,	B738, france soleil
+	UAE-12, 1,	B77W, emirates		s
+	VLG-1234, 1,	A319/A320/A321, vueling,		s
+	WZZ-1234, 1,	A319/A320/A321, wizzair
 
 [airport2]
 name = Lyon Bron
@@ -154,12 +163,8 @@ entrypoints =
 	150, GOMET, 10000
 
 airlines =
-	RYR, 10, B738, Ryanair
-	RYR, 10, B738, Ryanair
-	WZZ, 4, A320, Wizzair, ne
-	WZZ, 1, A21N, Wizzair, ne
-	SQP, 2, B738, Skyup, n
-	MLD, 1, A319, Air Moldova, e
+	F-ABCD, 5, C525/C550/C56X/C680/C750/C25C/FA7X/F900/FA50/LJ35/LJ60/GL5T/GLEX/CL30/CL35/G280/GLF4/GLF5/GLF6/E545/E55P/E35L/JS32/TBM7
+	JFA-12A, 1, PC12, mosquito
 
 [airport3]
 name = Grenoble
@@ -181,12 +186,18 @@ entrypoints =
 	150, GOMET, 10000
 
 airlines =
-	RYR, 10, B738, Ryanair
-	RYR, 10, B738, Ryanair
-	WZZ, 4, A320, Wizzair, ne
-	WZZ, 1, A21N, Wizzair, ne
-	SQP, 2, B738, Skyup, n
-	MLD, 1, A319, Air Moldova, e
+	RYR-12AB, 8, B738, ryanair
+	BAW-1234, 5, A320/A319, speedbird
+	EZY-12AB, 7, A320/A319, easy
+	CAT-123, 3, B734, aircat
+	EXS-12AB, 6, B738, channex
+	WZZ-12AB, 2, A321, wizzair
+	TRA-1234, 2, B738, transavia
+	NZS-1234, 1, B738, norlight
+	AWC-123, 3, A320/A321, zap
+	NJE-123A, 1, E55P/GLEX, fraction
+	ISR-123, 1, A320, israir
+
 
 [configurations]
 
@@ -417,11 +428,10 @@ route1 =
 	N46.106944, E5.329167, 7000, 250
 	end, 180.0
 
-
 [area1] # TMA LFLL TMA 1 Lyon
 
 shape = polygon
-altitude = 0
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N46.055277, E5.266389
@@ -449,10 +459,19 @@ points =
 	N46.073800, E5.173494
 	N46.058763, E5.253914
 
-[area2] # TMA LFLL TMA 10 Lyon
+[area2] # TMA LFLL TMA 1 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 3000
+labelpos = N46.002, E4.977
+points =
+	N46.055277, E5.266389
+	N46.055277, E5.266389
+
+[area3] # TMA LFLL TMA 10 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.581667, E5.528056
@@ -460,10 +479,19 @@ points =
 	N45.451111, E5.725833
 	N45.448611, E5.566667
 
-[area3] # TMA LFLL TMA 11 Lyon
+[area4] # TMA LFLL TMA 10 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 8000
+labelpos = N45.531, E5.611
+points =
+	N45.581667, E5.528056
+	N45.581667, E5.528056
+
+[area5] # TMA LFLL TMA 11 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.066667, E5.389722
@@ -481,54 +509,19 @@ points =
 	N45.216667, E5.650000
 	N45.088056, E5.520278
 
-[area4] # TMA LFLL TMA 12 Lyon
+[area6] # TMA LFLL TMA 11 Lyon
 
 shape = polygon
-altitude = 0
-labelpos = N0.0, E0.0
+altitude = 10000
+labelpos = N45.561, E5.798
 points =
-	N46.500000, E4.400000
-	N46.500000, E4.674722
-	N46.500000, E4.833333
-	N46.500000, E5.585833
-	N46.477222, E5.606111
-	N46.242222, E5.801111
-	N46.173333, E5.661667
-	N46.165733, E5.647746
-	N46.147246, E5.621108
-	N46.125829, E5.599500
-	N46.102133, E5.583579
-	N46.076879, E5.573828
-	N46.050833, E5.570545
-	N46.024788, E5.573828
-	N45.999533, E5.583579
-	N45.975837, E5.599500
-	N45.954421, E5.621108
-	N45.935933, E5.647746
-	N45.928056, E5.662778
-	N45.716667, E5.489444
-	N45.685556, E5.498056
-	N45.632222, E5.983333
-	N45.455556, E5.979167
-	N45.449167, E5.908611
-	N45.330556, E5.937222
-	N45.106667, E5.773611
-	N45.000000, E5.521111
-	N45.000000, E5.328333
-	N44.666667, E5.023333
-	N44.666667, E4.851389
-	N44.668611, E4.454722
-	N44.904444, E4.171667
-	N45.136944, E4.042222
-	N45.581667, E4.108889
-	N45.969444, E3.898056
-	N46.050000, E3.853889
-	N46.175000, E4.050000
+	N45.066667, E5.389722
+	N45.066667, E5.389722
 
-[area5] # TMA LFLL TMA 13 Lyon
+[area9] # TMA LFLL TMA 13 Lyon
 
 shape = polygon
-altitude = 0
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.553056, E5.419722
@@ -538,10 +531,19 @@ points =
 	N45.463668, E5.237578
 	N45.485767, E5.305488
 
-[area6] # TMA LFLL TMA 14 Lyon
+[area10] # TMA LFLL TMA 13 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 4000
+labelpos = N45.448, E5.333
+points =
+	N45.553056, E5.419722
+	N45.553056, E5.419722
+
+[area11] # TMA LFLL TMA 14 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.969444, E3.898056
@@ -550,10 +552,19 @@ points =
 	N45.266667, E4.533333
 	N45.200000, E4.316667
 
-[area7] # TMA LFLL TMA 14.1 Lyon
+[area12] # TMA LFLL TMA 14 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 9000
+labelpos = N45.651, E4.214
+points =
+	N45.969444, E3.898056
+	N45.969444, E3.898056
+
+[area13] # TMA LFLL TMA 14.1 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.938611, E3.915000
@@ -567,29 +578,19 @@ points =
 	N45.136944, E4.042222
 	N45.581667, E4.108889
 
-[area8] # TMA LFLL TMA 15 Lyon
+[area14] # TMA LFLL TMA 14.1 Lyon
 
 shape = polygon
-altitude = 0
-labelpos = N0.0, E0.0
+altitude = 9000
+labelpos = N45.039, E4.365
 points =
-	N45.449722, E5.635278
-	N45.304444, E5.635278
-	N45.291389, E5.607778
-	N45.269167, E5.555833
-	N45.186111, E5.133889
-	N45.249722, E4.890000
-	N45.280833, E4.886389
-	N45.256111, E4.991667
-	N45.255556, E5.333889
-	N45.310278, E5.533889
-	N45.342222, E5.585000
-	N45.448611, E5.566667
+	N45.938611, E3.915000
+	N45.938611, E3.915000
 
-[area9] # TMA LFLL TMA 16 Lyon
+[area17] # TMA LFLL TMA 16 Lyon
 
 shape = polygon
-altitude = 0
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.449167, E5.908611
@@ -603,10 +604,19 @@ points =
 	N45.302500, E5.703611
 	N45.438333, E5.788889
 
-[area10] # TMA LFLL TMA 2 Lyon
+[area18] # TMA LFLL TMA 16 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 12000
+labelpos = N45.309, E5.761
+points =
+	N45.449167, E5.908611
+	N45.449167, E5.908611
+
+[area19] # TMA LFLL TMA 2 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N46.142222, E5.370278
@@ -629,10 +639,19 @@ points =
 	N46.180480, E5.200450
 	N46.160555, E5.307005
 
-[area11] # TMA LFLL Tma 3 Lyon
+[area20] # TMA LFLL TMA 2 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 5000
+labelpos = N46.132, E4.934
+points =
+	N46.142222, E5.370278
+	N46.142222, E5.370278
+
+[area21] # TMA LFLL Tma 3 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.342222, E5.585000
@@ -644,10 +663,19 @@ points =
 	N45.440833, E5.181944
 	N45.448611, E5.566667
 
-[area12] # TMA LFLL TMA 4 Lyon
+[area22] # TMA LFLL Tma 3 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 3300
+labelpos = N45.311, E4.952
+points =
+	N45.342222, E5.585000
+	N45.342222, E5.585000
+
+[area23] # TMA LFLL TMA 4 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N46.433333, E4.816667
@@ -671,10 +699,19 @@ points =
 	N46.086111, E4.203611
 	N46.203611, E4.661389
 
-[area13] # TMA LFLL TMA 5 Lyon
+[area24] # TMA LFLL TMA 4 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 7000
+labelpos = N46.316, E4.966
+points =
+	N46.433333, E4.816667
+	N46.433333, E4.816667
+
+[area25] # TMA LFLL TMA 5 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.755278, E4.584722
@@ -682,10 +719,19 @@ points =
 	N45.525000, E4.495000
 	N45.734167, E4.388611
 
-[area14] # TMA LFLL TMA 6 Lyon
+[area26] # TMA LFLL TMA 5 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 5000
+labelpos = N45.653, E4.496
+points =
+	N45.755278, E4.584722
+	N45.755278, E4.584722
+
+[area27] # TMA LFLL TMA 6 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.066667, E5.389722
@@ -693,10 +739,19 @@ points =
 	N44.666667, E4.851389
 	N45.066667, E4.638889
 
-[area15] # TMA LFLL TMA 7 Lyon
+[area28] # TMA LFLL TMA 6 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 4000
+labelpos = N44.952, E4.866
+points =
+	N45.066667, E5.389722
+	N45.066667, E5.389722
+
+[area29] # TMA LFLL TMA 7 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N46.218056, E4.670833
@@ -708,10 +763,19 @@ points =
 	N46.175000, E4.050000
 	N46.374167, E4.263889
 
-[area16] # TMA LFLL TMA 7.1 Lyon
+[area30] # TMA LFLL TMA 7 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 9000
+labelpos = N46.201, E4.181
+points =
+	N46.218056, E4.670833
+	N46.218056, E4.670833
+
+[area31] # TMA LFLL TMA 7.1 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N46.500000, E4.674722
@@ -726,10 +790,19 @@ points =
 	N46.374167, E4.263889
 	N46.500000, E4.400000
 
-[area17] # TMA LFLL TMA 7.2 Lyon
+[area32] # TMA LFLL TMA 7.1 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 9000
+labelpos = N46.406, E4.503
+points =
+	N46.500000, E4.674722
+	N46.500000, E4.674722
+
+[area33] # TMA LFLL TMA 7.2 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N46.500000, E4.674722
@@ -740,10 +813,19 @@ points =
 	N46.433333, E4.816667
 	N46.307222, E4.731111
 
-[area18] # TMA LFLL TMA 8 Lyon
+[area34] # TMA LFLL TMA 7.2 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 12000
+labelpos = N46.421, E5.471
+points =
+	N46.500000, E4.674722
+	N46.500000, E4.674722
+
+[area35] # TMA LFLL TMA 8 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N46.363333, E5.407778
@@ -758,10 +840,19 @@ points =
 	N46.060278, E5.570556
 	N46.237222, E5.576389
 
-[area19] # TMA LFLL TMA 8.1 Oyonnax nord Lyon
+[area36] # TMA LFLL TMA 8 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 8000
+labelpos = N0.0, E0.0
+points =
+	N46.363333, E5.407778
+	N46.363333, E5.407778
+
+[area37] # TMA LFLL TMA 8.1 Oyonnax nord Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N46.477222, E5.606111
@@ -769,10 +860,19 @@ points =
 	N46.237222, E5.576389
 	N46.363333, E5.407778
 
-[area20] # TMA LFLL TMA 9 Lyon
+[area38] # TMA LFLL TMA 8.1 Oyonnax nord Lyon
 
 shape = polygon
-altitude = 0
+altitude = 8000
+labelpos = N0.0, E0.0
+points =
+	N46.477222, E5.606111
+	N46.477222, E5.606111
+
+[area39] # TMA LFLL TMA 9 Lyon
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.916667, E5.485556
@@ -783,10 +883,19 @@ points =
 	N45.716667, E5.489444
 	N45.856111, E5.450556
 
-[area21] # Tower CTR LFLL CTR Saint-Exupéry
+[area40] # TMA LFLL TMA 9 Lyon
 
 shape = polygon
-altitude = 0
+altitude = 10000
+labelpos = N45.892, E5.516
+points =
+	N45.916667, E5.485556
+	N45.916667, E5.485556
+
+[area41] # Tower CTR LFLL CTR Saint-Exupéry
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.837778, E5.200000
@@ -817,10 +926,19 @@ points =
 	N45.896944, E5.148056
 	N45.854167, E5.153611
 
-[area22] # Tower CTR LFLY CTR Lyon Bron
+[area42] # Tower CTR LFLL CTR Saint-Exupéry
 
 shape = polygon
 altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.837778, E5.200000
+	N45.837778, E5.200000
+
+[area43] # Tower CTR LFLY CTR Lyon Bron
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.864444, E4.945278
@@ -840,10 +958,19 @@ points =
 	N45.864444, E4.921972
 	N45.865528, E4.938694
 
-[area23] # Tower CTR LFLS CTR Grenoble Isère
+[area44] # Tower CTR LFLY CTR Lyon Bron
 
 shape = polygon
 altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.864444, E4.945278
+	N45.864444, E4.945278
+
+[area45] # Tower CTR LFLS CTR Grenoble Isère
+
+shape = polygon
+altitude = -1
 labelpos = N0.0, E0.0
 points =
 	N45.447222, E5.488611
@@ -863,3 +990,12 @@ points =
 	N45.256111, E5.055556
 	N45.416667, E5.055556
 	N45.440556, E5.181944
+
+[area46] # Tower CTR LFLS CTR Grenoble Isère
+
+shape = polygon
+altitude = 0
+labelpos = N0.0, E0.0
+points =
+	N45.447222, E5.488611
+	N45.447222, E5.488611
