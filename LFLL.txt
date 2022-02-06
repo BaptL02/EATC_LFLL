@@ -58,6 +58,9 @@ boundary =
 
 beacons =
 	LSE, N45.745528, E5.090583, 0, lima sierra echo
+	WS, N45.362361, E5.152972, 0, whiskey sierra
+	VNE, N45.556444, E4.883417, 0, vienne
+	LTP, N45.488972, E5.439056, 0, la tour du pin
 	TALAR, N45.956389, E4.604361, 121, talar
 	ARBON, N45.283278, E4.890167, 016, arbon
 	GOMET, N45.360194, E5.488000, 344, gomet
@@ -316,6 +319,116 @@ route1 =
 	N45.828194, E4.826444
 	N45.780972, E4.713056
 	N45.637944, E4.283528
+
+
+
+# DEPARTS LYON BRON
+
+[departures12]
+runway = rwy34
+route1 =
+	MABES, mabes two papa
+    	N45.795083, E4.914756
+    	N46.290011, E4.980619
+    	N46.324056, E4.985194
+    	N46.340222, E5.265056
+
+[departures13]
+runway = rwy34
+route1 =
+	MOKIP, mokip two papa
+    	N45.795083, E4.914756
+    	N46.290011, E4.980619
+    	N46.324056, E4.985194
+    	N46.448889, E5.093611
+
+[departures14]
+runway = rwy34
+route1 =
+	ALURA, alura two papa
+    	N45.795083, E4.914756
+    	N46.290011, E4.980619
+    	N46.324056, E4.985194
+    	N46.500000, E4.952694
+
+[departures15]
+runway = rwy34
+route1 =
+	BUSIL, busil two papa
+    	N45.795083, E4.914756
+    	N46.043356, E4.947647
+    	N46.293611, E4.721944
+
+[departures16]
+runway = rwy34
+route1 =
+	BELEP, belep two papa
+    	N45.795083, E4.914756
+    	N45.780972, E4.713056
+    	N45.724983, E4.544081
+    	N45.730056, E4.514000
+    	N45.791667, E4.131667
+
+[departures17]
+runway = rwy34
+route1 =
+	EB, echo bravo two papa
+    	N45.795083, E4.914756
+    	N45.780972, E4.713056
+    	N45.637944, E4.283528
+
+[departures18]
+runway = rwy34
+route1 =
+	REPSI, repsi two quebec
+    	N45.795083, E4.914756
+    	N45.780972, E4.713056
+    	N45.708028, E4.648861
+    	N45.522389, E4.275278
+
+[departures19]
+runway = rwy34
+route1 =
+	MURRO, murro two quebec
+    	N45.795083, E4.914756
+    	N45.780972, E4.713056
+    	N45.708028, E4.648861
+    	N45.332917, E4.375556
+
+[departures20]
+runway = rwy34
+route1 =
+	ROMAM, romam two papa
+    	N45.795083, E4.914756
+	N45.946000, E4.934000
+	N45.943000, E5.093000
+	N45.791712, E5.208022
+    	N45.362361, E5.152972
+    	N45.102647, E5.163447
+
+[departures21]
+runway = rwy34
+route1 =
+	BELUS, belus two papa
+    	N45.795083, E4.914756
+	N45.946000, E4.934000
+	N45.943000, E5.093000
+	N45.791712, E5.208022
+	N45.615000, E5.186000
+	N45.675278, E5.593889
+
+[departures22]
+runway = rwy34
+route1 =
+	RISOR, risor two papa
+   	N45.795083, E4.914756
+	N45.946000, E4.934000
+	N45.943000, E5.093000
+	N45.791712, E5.208022
+	N45.700000, E5.197000
+    	N45.655833, E5.293056
+    	N45.506944, E5.626944
+    	N45.538333, E5.964167
 
 [approach1]
 
