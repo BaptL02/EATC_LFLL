@@ -202,12 +202,12 @@ airlines =
 [configurations]
 
 config1 =
-	0, rwy35R, landrev
-	0, rwy35L, startrev
-	0, rwy34, startlandrev
+	0, rwy35R, land
+	0, rwy35L, start
+	0, rwy34, startland
 	0, rwy27, startlandrev
 
-config1 =
+config2 =
 	0, rwy35R, land
 	0, rwy35L, start
 	0, rwy34, startland
@@ -999,3 +999,4 @@ labelpos = N0.0, E0.0
 points =
 	N45.447222, E5.488611
 	N45.447222, E5.488611
+
